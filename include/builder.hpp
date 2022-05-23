@@ -22,8 +22,9 @@ using boost::process::execute;
 using boost::process::search_path;
 using boost::process::initializers::set_args;
 using boost::process::initializers::set_on_error;
-using boost::program_options::variables_map;
 using boost::program_options::options_description;
+using boost::program_options::value;
+using boost::program_options::variables_map;
 
 bool create_child_process(const std::vector<std::string>& command);
 
